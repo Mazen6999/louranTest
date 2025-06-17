@@ -1,0 +1,88 @@
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: purple;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navigation a {
+    color: purple;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navigation a:hover {
+    color: red;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("background.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2,.main a{
+    color: white;
+    font-size: 1.5em;
+}
+.main a{
+    margin-right: 40px;
+}
+
+
+.info{
+    color:black;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.card{
+    display: block;
+    background-color: aliceblue;
+    width: 15em;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.486);
+    padding: 25px;
+    margin: 20px;
+    transition: 1s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card .icon{
+    text-align: center;
+    color: blue;
+    font-size: 7em;
+}
+
+.card .info{
+    text-align: center;
+    font-size: 1.1em;
+}
